@@ -6,6 +6,7 @@
 
 # The directory Mix downloads your dependencies sources to.
 /deps/
+/**/*/deps/
 
 # Where 3rd-party dependencies like ExDoc output generated docs.
 /doc/
@@ -23,3 +24,5 @@ erl_crash.dump
 advent-*.tar
 
 .elixir_ls/
+**/*/.elixir_ls/
+**/*/_build
