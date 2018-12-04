@@ -26,3 +26,4 @@ advent-*.tar
 .elixir_ls/
 **/*/.elixir_ls/
 **/*/_build
+.vscode/
