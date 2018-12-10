@@ -21,7 +21,8 @@ defmodule Advent.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:mix_test_watch, "~> 0.9", only: [:dev, :test]}
+      {:mix_test_watch, "~> 0.9", only: [:dev, :test]},
+      {:nimble_parsec, "~> 0.4"}
     ]
   end
 end
